@@ -3,3 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* Talha: Form part. The section before the footer. START */
+.catchword-form {
+  border: 3px solid #000;
+  width: 100vw;
+}
