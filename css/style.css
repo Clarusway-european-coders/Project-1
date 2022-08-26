@@ -40,6 +40,7 @@
   box-sizing: border-box;
 }
 
+
 /*Part 9 About Our Goals*/
 .part9 {
   min-height: 80vh;
@@ -79,3 +80,116 @@
 }
 
 /*??? SPAGHETTI has been written :))*/ 
+/* Talha: Form part. The section before the footer. START */
+.catchword-form {
+  /* border: 3px solid #000; */
+  width: 100vw;
+  padding: 5vh 0;
+}
+.catchword-form .container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.catchword-form .container .box,
+.catchword-form .container .form-box {
+  width: 48%;
+  padding: 1.5rem;
+}
+.catchword-form .container .form-box {
+  border-radius: 30px;
+  background-color: #4f6054;
+  color: #fff;
+}
+/* The following css block belongs to h3 heading. You can copy it. */
+.catchword-form .container .box .box-title {
+  font-size: 2.2rem;
+  font-family: "Raleway", sans-serif;
+  color: #4f6054;
+  font-weight: 700;
+}
+.catchword-form .container .box .box-text,
+.catchword-form .container .form-box form .label,
+.catchword-form .container .form-box form .submit-button button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+.catchword-form .container .box .box-text {
+  line-height: 1.6;
+  padding: 2rem 0;
+}
+.catchword-form .container .form-box .form-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+/* The following 3 blocks belong to read more button in this page. You can copy paste it to your section. Be careful with class names! */
+.catchword-form .container .box .read-more-button {
+  margin: 1rem 0;
+}
+.catchword-form .container .box .read-more-button a {
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  background-color: #bdb285;
+  padding: 15px 51px 16px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+.catchword-form .container .box .read-more-button a:hover {
+  background-color: #4f6054;
+}
+.catchword-form .container .form-box form .input input,
+.catchword-form .container .form-box form .input textarea {
+  width: 100%;
+  padding: 14px 12px;
+  border-color: #f2f2f2;
+  border-radius: 30px;
+  color: #f2f2f2;
+  outline: none;
+  font-size: 1rem;
+}
+.catchword-form .container .form-box form .input,
+.catchword-form .container .form-box form .checkbox {
+  margin-bottom: 1.2rem;
+}
+.catchword-form .container .form-box form .input textarea {
+  resize: none;
+  height: 7rem;
+}
+.catchword-form .container .form-box form .checkbox label a,
+.catchword-form .container .form-box form .checkbox label a:visited {
+  color: #adcce9;
+}
+.catchword-form .container .form-box form .checkbox label a:hover {
+  color: #a1a1a1;
+}
+.catchword-form .container .form-box form .submit-button {
+  margin-bottom: 1.5rem;
+}
+.catchword-form .container .form-box form .submit-button button {
+  width: 100%;
+  background-color: #bdb285;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.catchword-form .container .form-box form .submit-button button:hover {
+  background-color: #fff;
+  color: #4f6054;
+}
+/* Talha: Form part. The section before the footer. END */
+
