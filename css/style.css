@@ -1,5 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap");
+
+/* Animation that slides texts */
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-300px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*animation for quotation mark*/
+@keyframes iconExpand {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animation for text visibility*/
+@keyframes visibility {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/*Part 9 About Our Goals*/
+.part9 {
+  min-height: 80vh;
+  max-width: 100%;
+  background-image: url(/img/pexels-photo-4307641.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-wrapper {
+  margin: 7% 20% 0 50%;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+}
+/*Icon classname belongs <i> element too*/
+.icon {
+  margin-top: 10%;
+  font-size: 5rem;
+  animation: iconExpand 2s ease;
+}
+
+.text {
+  color: white;
+}
+
+.text-1 {
+  font-size: 2rem;
+}
+
+.text-2 {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.animated {
+  animation: slideFromLeft 2s ease, visibility 2s ease;
+}
+
+/*??? SPAGHETTI has been written :))*/ 
