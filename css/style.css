@@ -7,45 +7,51 @@
 }
 
 
-/*Part 9 About Our Goals*/
+/*Part 9 About Our Goals START*/
 .part9 {
+  height: 100vh;
+  width: 100%
+}
+
+.part9 .main-container{
   min-height: 80vh;
   max-width: 100%;
   background-image: url(/img/pexels-photo-4307641.jpeg);
   background-size: cover;
   background-position: center;
+
 }
 
-.text-wrapper {
+.part9 .main-container .text-wrapper {
   margin: 7% 20% 0 40%;
   text-align: right;
   font-family: "Open Sans", sans-serif;
 }
 /*Icon classname belongs <i> element too*/
-.icon {
+.part9 .main-container .text-wrapper .icon {
   margin-top: 10%;
   font-size: 5rem;
   animation: iconExpand 2s ease;
 }
 
-.text {
+.part9 .main-container .text-wrapper .text {
   color: white;
 }
 
-.text-1 {
+.part9 .main-container .text-wrapper .text-1 {
   font-size: 2rem;
 }
 
-.text-2 {
+.part9 .main-container .text-wrapper .text-2 {
   margin-top: 2rem;
   font-size: 1rem;
 }
 
-.animated {
+.part9 .main-container .text-wrapper .animated {
   animation: slideFromLeft 2s ease, visibility 2s ease;
 }
 
-/*??? SPAGHETTI has been written :))*/ 
+/* Mehmet: Part9 END */
 /* Talha: Form part. The section before the footer. START */
 .catchword-form {
   /* border: 3px solid #000; */
