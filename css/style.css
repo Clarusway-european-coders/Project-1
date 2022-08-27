@@ -1,45 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap");
-
-/* Animation that slides texts */
-@keyframes slideFromLeft {
-  0% {
-    transform: translateX(-300px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-/*animation for quotation mark*/
-@keyframes iconExpand {
-  0% {
-    transform: scale(0);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* Animation for text visibility*/
-@keyframes visibility {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    visibility: visible;
-    opacity: 1;
-  }
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+/* Part 6 Network and Communications Sinan Sarikaya  */
+.part6 {
+  width: 100%;
+  height: 100vh;
+  background-color: #29332c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg-box {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+}
+.part6 .svg-box svg {
+  fill: #4f6054;
+}
+.part6 .network-section {
+  width: 70%;
+  height: 100%;
+}
+.part6 .network-article {
+  background-color: #fff;
+  color: #4f6054;
+  width: 40%;
+  height: 500px;
+  border-radius: 50px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.part6 .network-article .network-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.part6 .network-article .network-description {
+  font-size: 20px;
+  font-weight: 600;
+}
+.part6 .network-article .network-button {
+  background-color: #bdb285;
+  padding: 15px 51px;
+  outline: none;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  align-self: flex-start;
+}
+/* Part 6 End  */
 
 /*Part 9 About Our Goals*/
 .part9 {
@@ -49,8 +64,7 @@
   background-size: cover;
   background-position: center;
 }
-
-.text-wrapper {
+.part9 .text-wrapper {
   margin: 7% 20% 0 40%;
   text-align: right;
   font-family: "Open Sans", sans-serif;
@@ -61,29 +75,25 @@
   font-size: 5rem;
   animation: iconExpand 2s ease;
 }
-
 .text {
   color: white;
 }
-
 .text-1 {
   font-size: 2rem;
 }
-
 .text-2 {
   margin-top: 2rem;
   font-size: 1rem;
 }
-
 .animated {
   animation: slideFromLeft 2s ease, visibility 2s ease;
 }
 
-/*??? SPAGHETTI has been written :))*/ 
+/*??? SPAGHETTI has been written :))*/
 /* Talha: Form part. The section before the footer. START */
 .catchword-form {
   /* border: 3px solid #000; */
-  width: 100vw;
+  width: 100%;
   padding: 5vh 0;
 }
 .catchword-form .container {
@@ -193,3 +203,36 @@
 }
 /* Talha: Form part. The section before the footer. END */
 
+/* Animation that slides texts */
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-300px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*animation for quotation mark*/
+@keyframes iconExpand {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animation for text visibility*/
+@keyframes visibility {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
