@@ -1,11 +1,88 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap');
 
+=======
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap");
+>>>>>>> 89f271a1b99b4e3dcc063e37865cdfbe747b6fcb
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/* Part 6 Network and Communications Sinan Sarikaya  */
+.part6 {
+  width: 100%;
+  padding: 50px 0;
+  /* height: 100vh; */
+  background-color: #29332c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.part6 .svg-box {
+  width: 50vw;
+  height: 40vw;
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+.part6 .svg-box .svgImg {
+  object-fit: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 70%;
+  left: 50px;
+  z-index: 1;
+}
+.part6 .svg-box .svg {
+  position: absolute;
+}
+.part6 .svg-box .firstSvg {
+  fill: #4f6054;
+  width: 100%;
+  left: 100px;
+}
+.part6 .svg-box .secondSvg {
+  left: 0;
+  width: 90%;
+  fill: #bdb285;
+}
+.part6 .network-section {
+  width: 70%;
+  height: 100%;
+  z-index: 1;
+}
+.part6 .network-article {
+  background-color: #fff;
+  color: #4f6054;
+  width: 555px;
+  height: 520px;
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.part6 .network-article .network-title {
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  color: #4f6054;
+  font-weight: 700;
+}
+.part6 .network-article .network-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  /* padding: 2rem 0; */
+  color: #111;
+}
 
+<<<<<<< HEAD
 /* /part 5 Our Teams/ */
 
 .part5 {
@@ -87,13 +164,29 @@ h3 {
 }
 
 /* part 5 end */
+=======
+.part6 .network-article .network-button {
+  background-color: #bdb285;
+  padding: 15px 51px;
+  outline: none;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  align-self: flex-start;
+}
+/* Part 6 End  */
+>>>>>>> 89f271a1b99b4e3dcc063e37865cdfbe747b6fcb
 
 /*Part 9 About Our Goals START*/
 .part9 {
   height: 100vh;
   width: 100%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 89f271a1b99b4e3dcc063e37865cdfbe747b6fcb
 .part9 .main-container {
   min-height: 80vh;
   max-width: 100%;
@@ -101,7 +194,6 @@ h3 {
   background-size: cover;
   background-position: center;
 }
-
 .part9 .main-container .text-wrapper {
   margin: 7% 20% 0 40%;
   text-align: right;
@@ -113,25 +205,22 @@ h3 {
   font-size: 5rem;
   animation: iconExpand 2s ease;
 }
-
 .part9 .main-container .text-wrapper .text {
   color: white;
 }
-
 .part9 .main-container .text-wrapper .text-1 {
   font-size: 2rem;
 }
-
 .part9 .main-container .text-wrapper .text-2 {
   margin-top: 2rem;
   font-size: 1rem;
 }
-
 .part9 .main-container .text-wrapper .animated {
   animation: slideFromLeft 2s ease, visibility 2s ease;
 }
-
 /* Mehmet: Part9 END */
+
+/*??? SPAGHETTI has been written :))*/
 /* Talha: Form part. The section before the footer. START */
 .catchword-form {
   /* border: 3px solid #000; */
