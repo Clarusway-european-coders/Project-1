@@ -1,66 +1,390 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap");
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/* part1 Melike */
+nav {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #4f6054;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+nav .hamburger {
+  cursor: pointer;
+}
+nav .hamburger .bar {
+  background-color: #fff;
+  width: 30px;
+  height: 3px;
+  margin-top: 5px;
+}
+nav .hamburger:hover .bar {
+  background-color: #ce272d;
+}
+.navbar {
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  color: #fff;
+  left: -100%;
+  top: 0;
+  bottom: 0;
+  font-size: 1.5em;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease-in-out;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 1001;
+}
+.navbar.active {
+  left: 0;
+}
+.background-filter.active {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease-in-out;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .close {
+  align-self: flex-end;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+.navbar .close .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 5px;
+}
+.navbar .close .bar:nth-child(1) {
+  transform: translateY(4px) rotate(45deg);
+}
+.navbar .close .bar:nth-child(2) {
+  transform: translateY(-4px) rotate(-45deg);
+}
+.navbar li {
+  list-style: none;
+  margin-top: 10px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+.navbar li a:hover {
+  color: #ffffffaf;
+}
 
+/* part1 Melike End */
+/* /part 3 F4173-Yasin Start/ */
+.part3 {
+  height: 420px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/sdsdsd-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 300px;
+  padding-top: 50px;
+}
+.part3 h1 {
+  font-size: 72px;
+  font-family: "Raleway", sans-serif;
+}
+.part3 .p1 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.part3 h1,
+.p1 {
+  color: white;
+}
+.part3 .fa-credit-card {
+  border: 15px solid white;
+  border-radius: 50%;
+  color: #4f6054;
+  background-color: white;
+}
+.part3 .fa-solid {
+  border: 15px solid white;
+  border-radius: 50%;
+  color: #4f6054;
+  background-color: white;
+}
+.part3 .fa-regular,
+.fa-solid {
+  margin-bottom: 1rem;
+}
+.part3 .box-container {
+  display: flex;
+  gap: 20px;
+}
+.part3 .box-container .box {
+  width: 270px;
+  height: 400px;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.part3 .box1 {
+  background-color: #bdb285;
+}
+
+.part3 .box2 {
+  background-color: #4f6054;
+}
+
+.part3 .box3 {
+  background-color: #bdb285;
+}
+
+.part3 .box4 {
+  background-color: #4f6054;
+}
+
+.part3 span {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.part3 .sp1 {
+  text-decoration-thickness: 2px;
+  text-decoration-color: #f0df9e;
+}
+
+.part3 .sp1:hover {
+  text-decoration-color: #4f6054;
+}
+
+.part3 span:hover {
+  text-decoration-color: #f0df9e;
+}
+
+.part3 p.paragraf {
+  text-justify: inherit;
+  text-align: center;
+  margin: 1rem;
+}
+/* /part 3 F4173-Yasin End/ */
+
+/* /part 5 Our Teams/ */
+.part5 {
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.part5 .üst {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.part5 .üst .baslik {
+  font-size: 72px;
+  font-weight: 700px;
+  font-family: "Raleway", sans-serif;
+}
+.part5 .üst p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 25.6px;
+}
+.our {
+  height: 766.562px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px 2rem;
+  flex-wrap: wrap;
+}
+.our .who {
+  width: 450px;
+  height: 450.938px;
+  /* border: solid 1px red; */
+  margin-top: 40px;
+  border-radius: 25%;
+  padding: 3rem 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 35.2px;
+}
+.our .who .ndr {
+  display: flex;
+  justify-content: center;
+  gap: 1rem 2rem;
+  font-size: 20px;
+}
+.our img {
+  width: 110px;
+  border: 7px solid white;
+  border-radius: 50%;
+}
+.our .ceo {
+  background-color: #29332c;
+  color: #ffffff;
+}
+.our .director {
+  background-color: #bdb285;
+  color: #ffffff;
+}
+.our .Manager {
+  background-color: #4f6054;
+  color: #ffffff;
+}
+.part5 h3 {
+  font-size: 16px;
+}
+/* part 5 end */
+/* Part 6 Network and Communications Sinan Sarikaya  */
+.part6 {
+  width: 100%;
+  padding: 50px 0;
+  /* height: 100vh; */
+  background-color: #29332c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.part6 .svg-box {
+  width: 50vw;
+  height: 40vh;
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+.part6 .svg-box .svgImg {
+  object-fit: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 70%;
+  left: 50px;
+  z-index: 1;
+}
+.part6 .svg-box .svg {
+  position: absolute;
+}
+.part6 .svg-box .firstSvg {
+  fill: #4f6054;
+  width: 100%;
+  left: 100px;
+}
+.part6 .svg-box .secondSvg {
+  left: 0;
+  width: 90%;
+  fill: #bdb285;
+}
+.part6 .network-section {
+  width: 70%;
+  height: 100%;
+  z-index: 1;
+}
+.part6 .network-article {
+  background-color: #fff;
+  color: #4f6054;
+  width: 555px;
+  height: 520px;
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.part6 .network-article .network-title {
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  color: #4f6054;
+  font-weight: 700;
+}
+.part6 .network-article .network-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #111;
+}
+.part6 .network-article .network-button {
+  background-color: #bdb285;
+  padding: 15px 51px;
+  outline: none;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  align-self: flex-start;
+}
+/* Part 6 End  */
 
 /*Part 10 our success START*/
-.part9 {
-  height: 100vh;
-  width: 100%
+.part10 {
+  width: 100%;
 }
-
-.part9 .main-container{
+.part10 .main-container {
   min-height: 80vh;
   max-width: 100%;
-  background-image: url(/img/pexels-photo-4307641.jpeg);
+  background-image: url(../img/pexels-photo-4307641.jpeg);
   background-size: cover;
   background-position: center;
-
 }
-
-.part9 .main-container .text-wrapper {
-  margin: 7% 20% 0 40%;
+.part10 .main-container .text-wrapper {
+  margin: 0 20% 0 40%;
   text-align: right;
   font-family: "Open Sans", sans-serif;
 }
 /*Icon classname belongs <i> element too*/
-.part9 .main-container .text-wrapper .icon {
+.part10 .main-container .text-wrapper .icon {
   margin-top: 10%;
   font-size: 5rem;
   animation: iconExpand 2s ease;
 }
-
-.part9 .main-container .text-wrapper .text {
-  color: white;
+.part10 .main-container .text-wrapper .text {
+  color: #fff;
 }
-
-.part9 .main-container .text-wrapper .text-1 {
+.part10 .main-container .text-wrapper .text-1 {
   font-size: 2rem;
 }
-
-.part9 .main-container .text-wrapper .text-2 {
+.part10 .main-container .text-wrapper .text-2 {
   margin-top: 2rem;
   font-size: 1rem;
 }
-
-.part9 .main-container .text-wrapper .animated {
+.part10 .main-container .text-wrapper .animated {
   animation: slideFromLeft 2s ease, visibility 2s ease;
 }
-
 /* Mehmet: Part10 END */
+
+/*??? SPAGHETTI has been written :))*/
+
 /* Talha: Form part. The section before the footer. START */
 .catchword-form {
-  /* border: 3px solid #000; */
   width: 100%;
   padding: 5vh 0;
 }
 .catchword-form .container {
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -170,12 +494,10 @@
   0% {
     transform: translateX(-300px);
   }
-
   100% {
     transform: translateX(0);
   }
 }
-
 /*animation for quotation mark*/
 @keyframes iconExpand {
   0% {
@@ -192,7 +514,6 @@
   0% {
     opacity: 0;
   }
-
   100% {
     visibility: visible;
     opacity: 1;
