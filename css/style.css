@@ -4,28 +4,91 @@
   box-sizing: border-box;
 }
 /* part1 Melike */
-.navbar{
+nav {
+  font-family: "Courier New", Courier, monospace;
   background-color: #4f6054;
-  color: #fff;
-  height: 80px;
   width: 100%;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  height: 80px;
   display: flex;
-  padding: 0 20px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+nav .hamburger {
+  cursor: pointer;
+}
+nav .hamburger .bar {
+  background-color: #fff;
+  width: 30px;
+  height: 3px;
+  margin-top: 5px;
+}
+nav .hamburger:hover .bar {
+  background-color: #ce272d;
+}
+.navbar {
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  color: #fff;
+  left: -100%;
+  top: 0;
+  bottom: 0;
+  font-size: 1.5em;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease-in-out;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 1001;
+}
+.navbar.active {
+  left: 0;
+}
+.background-filter.active {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease-in-out;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .close {
+  align-self: flex-end;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+.navbar .close .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 5px;
+}
+.navbar .close .bar:nth-child(1) {
+  transform: translateY(4px) rotate(45deg);
+}
+.navbar .close .bar:nth-child(2) {
+  transform: translateY(-4px) rotate(-45deg);
+}
+.navbar li {
+  list-style: none;
+  margin-top: 10px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+.navbar li a:hover {
+  color: #ffffffaf;
 }
 
 /* part1 Melike End */
 /* /part 3 F4173-Yasin Start/ */
-
-.part3 .row h1,
-.p1 {
-  color: white;
-  padding-bottom: 2rem;
-  font-weight: bolder;
-}
-
-.part3 .row {
+.part3 {
   height: 420px;
   background-image: linear-gradient(
       0deg,
@@ -33,77 +96,94 @@
       rgba(0, 0, 0, 0.6)
     ),
     url(../img/sdsdsd-min.jpg);
-}
-.part3 .row {
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 300px;
+  padding-top: 50px;
 }
-
-.part3 .row .box {
-  padding: 1rem;
+.part3 h1 {
+  font-size: 72px;
+  font-family: "Raleway", sans-serif;
+}
+.part3 .p1 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.part3 h1,
+.p1 {
   color: white;
-  border-radius: 20px;
-  margin: 0.5rem;
 }
-
-.part3 .row .fa-credit-card {
+.part3 .fa-credit-card {
   border: 15px solid white;
   border-radius: 50%;
   color: #4f6054;
   background-color: white;
 }
-
-.part3 .row .fa-solid {
+.part3 .fa-solid {
   border: 15px solid white;
   border-radius: 50%;
   color: #4f6054;
   background-color: white;
 }
-
-.part3 .row .fa-regular,
+.part3 .fa-regular,
 .fa-solid {
   margin-bottom: 1rem;
 }
-
-.part3 .row .box1 {
+.part3 .box-container {
+  display: flex;
+  gap: 20px;
+}
+.part3 .box-container .box {
+  width: 270px;
+  height: 400px;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.part3 .box1 {
   background-color: #bdb285;
 }
 
-.part3 .row .box2 {
+.part3 .box2 {
   background-color: #4f6054;
 }
 
-.part3 .row .box3 {
+.part3 .box3 {
   background-color: #bdb285;
 }
 
-.part3 .row .box4 {
+.part3 .box4 {
   background-color: #4f6054;
 }
 
-.part3 .row span {
+.part3 span {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   cursor: pointer;
   text-align: center;
 }
 
-.part3 .row .sp1 {
+.part3 .sp1 {
   text-decoration-thickness: 2px;
   text-decoration-color: #f0df9e;
 }
 
-.part3 .row .sp1:hover {
+.part3 .sp1:hover {
   text-decoration-color: #4f6054;
 }
 
-.part3 .row span:hover {
+.part3 span:hover {
   text-decoration-color: #f0df9e;
 }
 
-.part3 .row p.paragraf {
+.part3 p.paragraf {
   text-justify: inherit;
   text-align: center;
   margin: 1rem;
