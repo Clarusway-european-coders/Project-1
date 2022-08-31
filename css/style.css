@@ -3,6 +3,97 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* /part 3 F4173-Yasin Start/ */
+.part3 .row h1,
+.p1 {
+  color: white;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.part3 .row .image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -20rem;
+}
+
+.part3 .row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.part3 .row .box {
+  padding: 1rem;
+  color: white;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+
+.part3 .row .fa-credit-card {
+  border: 15px solid white;
+  border-radius: 50%;
+  color: #4f6054;
+  background-color: white;
+}
+
+.part3 .row .fa-solid {
+  border: 15px solid white;
+  border-radius: 50%;
+  color: #4f6054;
+  background-color: white;
+}
+
+.part3 .row .fa-regular,
+.fa-solid {
+  margin-bottom: 1rem;
+}
+
+.part3 .row .box1 {
+  background-color: #bdb285;
+}
+
+.part3 .row .box2 {
+  background-color: #4f6054;
+}
+
+.part3 .row .box3 {
+  background-color: #bdb285;
+}
+
+.part3 .row .box4 {
+  background-color: #4f6054;
+}
+
+.part3 .row span {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.part3 .row .sp1 {
+  text-decoration-thickness: 2px;
+  text-decoration-color: #f0df9e;
+}
+
+.part3 .row .sp1:hover {
+  text-decoration-color: #4f6054;
+}
+
+.part3 .row span:hover {
+  text-decoration-color: #f0df9e;
+}
+
+.part3 .row p.paragraf {
+  text-justify: inherit;
+  text-align: center;
+  margin: 1rem;
+}
+/* /part 3 F4173-Yasin End/ */
+
 /* /part 5 Our Teams/ */
 .part5 {
   margin-top: 100px;
