@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap');
-
-=======
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap");
->>>>>>> 89f271a1b99b4e3dcc063e37865cdfbe747b6fcb
 * {
   padding: 0;
   margin: 0;
@@ -81,16 +75,12 @@
   /* padding: 2rem 0; */
   color: #111;
 }
-
-<<<<<<< HEAD
 /* /part 5 Our Teams/ */
-
 .part5 {
   height: 766.562px;
   margin-top: 100px;
   flex-wrap: wrap;
 }
-
 .part5 .üst {
   width: 500px;
   text-align: center;
@@ -164,7 +154,6 @@
 }
 
 /* part 5 end */
-=======
 .part6 .network-article .network-button {
   background-color: #bdb285;
   padding: 15px 51px;
@@ -176,17 +165,12 @@
   align-self: flex-start;
 }
 /* Part 6 End  */
->>>>>>> 89f271a1b99b4e3dcc063e37865cdfbe747b6fcb
 
 /*Part 9 About Our Goals START*/
 .part9 {
   height: 100vh;
   width: 100%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 89f271a1b99b4e3dcc063e37865cdfbe747b6fcb
 .part9 .main-container {
   min-height: 80vh;
   max-width: 100%;
