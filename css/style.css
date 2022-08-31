@@ -3,7 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* part1 Melike */
+.navbar{
+  background-color: #4f6054;
+  color: #fff;
+  height: 80px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  padding: 0 20px;
+}
 
+/* part1 Melike End */
 /* /part 3 F4173-Yasin Start/ */
 
 .part3 .row h1,
