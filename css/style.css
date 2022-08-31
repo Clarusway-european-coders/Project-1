@@ -3,6 +3,71 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* /part 5 Our Teams/ */
+.part5 {
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.part5 .üst {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.part5 .üst .baslik {
+  font-size: 72px;
+  font-weight: 700px;
+  font-family: "Raleway", sans-serif;
+}
+.part5 .üst p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 25.6px;
+}
+.our {
+  height: 766.562px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px 2rem;
+  flex-wrap: wrap;
+}
+.our .who {
+  width: 450px;
+  height: 450.938px;
+  /* border: solid 1px red; */
+  margin-top: 40px;
+  border-radius: 25%;
+  padding: 3rem 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 35.2px;
+}
+.our .who .ndr {
+  display: flex;
+  justify-content: center;
+  gap: 1rem 2rem;
+  font-size: 20px;
+}
+.our img {
+  width: 110px;
+  border: 7px solid white;
+  border-radius: 50%;
+}
+.our .ceo {
+  background-color: #29332c;
+  color: #ffffff;
+}
+.our .director {
+  background-color: #bdb285;
+  color: #ffffff;
+}
+.our .Manager {
+  background-color: #4f6054;
+  color: #ffffff;
+}
+.part5 h3 {
+  font-size: 16px;
+}
+/* part 5 end */
 /* Part 6 Network and Communications Sinan Sarikaya  */
 .part6 {
   width: 100%;
@@ -16,7 +81,7 @@
 }
 .part6 .svg-box {
   width: 50vw;
-  height: 40vw;
+  height: 40vh;
   position: relative;
   top: 50px;
   left: 150px;
@@ -72,88 +137,8 @@
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
   line-height: 2rem;
-  /* padding: 2rem 0; */
   color: #111;
 }
-/* /part 5 Our Teams/ */
-.part5 {
-  height: 766.562px;
-  margin-top: 100px;
-  flex-wrap: wrap;
-}
-.part5 .üst {
-  width: 500px;
-  text-align: center;
-  margin: auto;
-}
-
-.part5 .üst .baslik {
-  font-size: 72px;
-  font-weight: 700px;
-  font-family: 'Raleway', sans-serif;
-}
-
-.part5 .üst p {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 25.6px;
-}
-
-.our {
-  width: 1903px;
-  height: 766.562px;
-  /* border: solid 1px black; */
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  gap: 10px 2rem;
-  flex-wrap: wrap;
-}
-
-.our .who {
-  width: 450px;
-  height: 450.938px;
-  /* border: solid 1px red; */
-  margin-top: 40px;
-  border-radius: 25%;
-  padding: 3rem 2rem;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  line-height: 35.2px;
-}
-
-.our .who .ndr {
-  display: flex;
-  justify-content: center;
-  gap: 1rem 2rem;
-  font-size: 20px;
-}
-
-.our img {
-  width: 110px;
-  border: 7px solid white;
-  border-radius: 50%;
-}
-
-.our .ceo {
-  background-color: #29332c;
-  color: #ffffff;
-}
-
-.our .director {
-  background-color: #bdb285;
-  color: #ffffff;
-}
-
-.our .Manager {
-  background-color: #4f6054;
-  color: #ffffff;
-}
-.part5 h3 {
-  font-size: 16px;
-}
-
-/* part 5 end */
 .part6 .network-article .network-button {
   background-color: #bdb285;
   padding: 15px 51px;
@@ -168,20 +153,19 @@
 
 /*Part 9 About Our Goals START*/
 .part9 {
-  height: 100vh;
   width: 100%;
 }
 .part9 .main-container {
   min-height: 80vh;
   max-width: 100%;
-  background-image: url(/img/pexels-photo-4307641.jpeg);
+  background-image: url(../img/pexels-photo-4307641.jpeg);
   background-size: cover;
   background-position: center;
 }
 .part9 .main-container .text-wrapper {
-  margin: 7% 20% 0 40%;
+  margin: 0 20% 0 40%;
   text-align: right;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /*Icon classname belongs <i> element too*/
 .part9 .main-container .text-wrapper .icon {
@@ -190,7 +174,7 @@
   animation: iconExpand 2s ease;
 }
 .part9 .main-container .text-wrapper .text {
-  color: white;
+  color: #fff;
 }
 .part9 .main-container .text-wrapper .text-1 {
   font-size: 2rem;
@@ -207,13 +191,12 @@
 /*??? SPAGHETTI has been written :))*/
 /* Talha: Form part. The section before the footer. START */
 .catchword-form {
-  /* border: 3px solid #000; */
   width: 100%;
   padding: 5vh 0;
 }
 .catchword-form .container {
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -233,14 +216,14 @@
 /* The following css block belongs to h3 heading. You can copy it. */
 .catchword-form .container .box .box-title {
   font-size: 2.2rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #4f6054;
   font-weight: 700;
 }
 .catchword-form .container .box .box-text,
 .catchword-form .container .form-box form .label,
 .catchword-form .container .form-box form .submit-button button {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
 .catchword-form .container .box .box-text {
@@ -248,7 +231,7 @@
   padding: 2rem 0;
 }
 .catchword-form .container .form-box .form-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   padding: 2rem 0;
   letter-spacing: 0.2rem;
@@ -260,7 +243,7 @@
 }
 .catchword-form .container .box .read-more-button a {
   font-size: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #bdb285;
   padding: 15px 51px 16px 50px;
   border-radius: 50px;
@@ -323,12 +306,10 @@
   0% {
     transform: translateX(-300px);
   }
-
   100% {
     transform: translateX(0);
   }
 }
-
 /*animation for quotation mark*/
 @keyframes iconExpand {
   0% {
@@ -345,7 +326,6 @@
   0% {
     opacity: 0;
   }
-
   100% {
     visibility: visible;
     opacity: 1;
