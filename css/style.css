@@ -190,6 +190,84 @@ nav .hamburger:hover .bar {
 }
 /* /part 3 F4173-Yasin End/ */
 
+/* Part 4 Benefits  */
+.part4 {
+  width: 100%;
+  padding: 50px 0;
+  /* height: 100vh; */
+  background-color: #29332c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.part4 .svg-box {
+  width: 50vw;
+  height: 40vh;
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+.part4 .svg-box .svgImg {
+  object-fit: cover;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 70%;
+  left: 50px;
+  z-index: 1;
+}
+.part4 .svg-box .svg {
+  position: absolute;
+}
+.part4 .benefits-section {
+  width: 70%;
+  height: 100%;
+  z-index: 1;
+}
+.part4 .benefits-article {
+  background-color: #fff;
+  color: #4f6054;
+  width: 555px;
+  height: 520px;
+  border-radius: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.part4 .benefits-article .benefits-title {
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  color: #4f6054;
+  font-weight: 700;
+}
+.part4 .benefits-article .benefits-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #111;
+}
+.part4 .benefits-article .benefits-button {
+  background-color: #bdb285;
+  padding: 15px 51px;
+  outline: none;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.part4 .benefits-button:hover {
+  background-color: #29332c;
+  cursor: pointer;
+}
+/* Part 4 End  */
+
 /* /part 5 Our Teams/ */
 .part5 {
   margin-top: 100px;
