@@ -19,3 +19,8 @@ document.addEventListener("keyup", (e) => {
     bgFilter.classList.remove("active");
   }
 });
+
+bgFilter.addEventListener("click", () => {
+  navbar.classList.remove("active");
+  bgFilter.classList.remove("active");
+});
