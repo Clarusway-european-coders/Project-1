@@ -418,6 +418,64 @@ nav .hamburger:hover .bar {
 }
 /* Part 6 End  */
 
+/* Talha: Part 7 START */
+.part7 {
+  width: 100%;
+  height: 90vh;
+}
+.part7 .container {
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 4rem;
+}
+.part7 .container .title {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  color: #4f6054;
+  height: 20%;
+  margin-bottom: 1rem;
+}
+.part7 .container .boxes {
+  display: flex;
+  height: 75%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.part7 .container .boxes .box {
+  width: 45%;
+  height: 25%;
+  background-color: #4f6054;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  border-radius: 30px;
+  padding: 0.3rem;
+}
+.part7 .container .boxes .box .tick {
+  margin-top: 30px;
+  width: 10%;
+}
+.part7 .container .boxes .box .tick img {
+  width: 24px;
+}
+.part7 .container .boxes .box .text {
+  width: 90%;
+  font-size: 1rem;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+/* Talha: Part 7 END */
+
 /*Part 10 our success START*/
 .part10 {
   width: 100%;
