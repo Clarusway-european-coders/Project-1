@@ -206,7 +206,7 @@ nav .hamburger:hover .bar {
   height: 40vh;
   position: relative;
   top: 50px;
-  left: 150px;
+  left: 10px;
 }
 .part4 .svg-box .svgImg {
   object-fit: cover;
@@ -225,8 +225,10 @@ nav .hamburger:hover .bar {
 }
 .part4 .benefits-section {
   width: 70%;
-  height: 100%;
+  height: 90%;
   z-index: 1;
+  position: relative;
+  left: 500px;
 }
 .part4 .benefits-article {
   background-color: #fff;
