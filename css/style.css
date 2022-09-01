@@ -227,8 +227,8 @@ nav .hamburger:hover .bar {
   width: 70%;
   height: 90%;
   z-index: 1;
-  position: relative;
-  left: 500px;
+  display: flex;
+  justify-content: center;
 }
 .part4 .benefits-article {
   background-color: #fff;
