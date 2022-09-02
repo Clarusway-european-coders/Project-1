@@ -475,7 +475,58 @@ nav .hamburger:hover .bar {
   font-family: "Open Sans", sans-serif;
 }
 /* Talha: Part 7 END */
+/* mehmet: PART 9 START */
+.part9{
+  width: 100%;
+  height: 70vh;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family:"Open Sans", sans-serif;
+}
+.part9 .main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+}
+.part9 .main .textWrapper{
+  width: 40%;
+  display: flex;
+  column-gap: 2rem;
+}
+.part9 .main .textWrapper .icon{
+  font-size: 7rem;
+  color: rgba(182, 167, 83, 0.726);
+  animation: iconExpand 2s ease;
+  height: 30%;
+}
+.part9 .main .textWrapper .paragraph{
+  animation: slideFromLeft-part9 3s ease, visibility 3s ease;
+}
+.part9 .main .textWrapper .paragraph a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid black;
+}
+.part9 .main .textWrapper .paragraph a:hover{
+  border-color:rgba(182, 167, 83, 0.726) ;
+}
+.part9 .main .smartPhonePic{
+  height: 100%;
+  width: 27%;
+  text-align: center;
+  padding-top: 2.4rem;
+  
+  
+}
+.part9 .main .smartPhonePic img{
+  width: 100%;
+  margin-left: 10rem;
+}
 
+/* PART 9 END */
 /*Part 10 our success START*/
 .part10 {
   width: 100%;
@@ -631,6 +682,14 @@ nav .hamburger:hover .bar {
 @keyframes slideFromLeft {
   0% {
     transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideFromLeft-part9 {
+  0% {
+    transform: translateX(-600px);
   }
   100% {
     transform: translateX(0);
