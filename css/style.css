@@ -906,9 +906,67 @@ nav .hamburger:hover .bar {
 }
 
 /*Footer Melike*/
-footer{
-  background-color: #333333;
-  height: 120.4px;
-  width: 1519.2px;
+#codersBox {
+  background-color: rgb(79, 96, 84);
+  width: 50%;
+  max-width: 500px;
+  min-width: 300px;
+  height: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1rem;
+  border: 2px solid #d7d1d1;
+  z-index: 1000;
+  color: #d7d1d1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
+}
+#codersBox h1 {
+  font-size: 2.2rem;
+}
+#codersBox a {
+  color: #f2f2f2;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+#codersBox li a:hover {
+  color: rgb(178, 176, 176);
+}
+#codersBox ul li {
+  list-style: none;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+#codersBox.active {
+  visibility: visible;
+  opacity: 1;
+}
+footer {
+  background-color: #333333;
+  height: 220px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer .copyright {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #259bca;
+  transition: color 0.5s;
+}
+footer .copyright:hover {
+  color: rgba(37, 155, 202, 60%);
 }
