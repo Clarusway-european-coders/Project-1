@@ -904,3 +904,11 @@ nav .hamburger:hover .bar {
     width: 100%;
   }
 }
+
+/*Footer Melike*/
+footer{
+  background-color: #333333;
+  height: 120.4px;
+  width: 1519.2px;
+  text-align: center;
+}
