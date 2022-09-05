@@ -423,13 +423,16 @@ nav .hamburger:hover .bar {
 .part7 {
   width: 100%;
   height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .part7 .container {
   width: 80%;
   height: 90%;
   margin: auto;
   text-align: center;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 .part7 .container .title {
   display: flex;
@@ -440,7 +443,7 @@ nav .hamburger:hover .bar {
   font-family: "Raleway", sans-serif;
   color: #4f6054;
   height: 20%;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 .part7 .container .boxes {
   display: grid;
@@ -858,6 +861,19 @@ nav .hamburger:hover .bar {
   .part6 .svg-box {
     height: 30vh;
   }
+  .part7 .container .title {
+    font-size: 1.5rem;
+  }
+  .part7 .container .boxes .box {
+    height: 150px;
+  }
+  .part7 .container .boxes .box .text {
+    font-size: 0.8rem;
+  }
+  .part7 .container .boxes .box .tick img {
+    width: 20px;
+  }
+
   .part8 .svg-box .firstSvg {
     width: 80%;
   }
@@ -896,6 +912,15 @@ nav .hamburger:hover .bar {
   }
   .part7 {
     height: 100%;
+  }
+  .part7 .container .title {
+    font-size: 1.5rem;
+  }
+  .part7 .container .boxes .box {
+    height: 120px;
+  }
+  .part7 .container .boxes .box .text {
+    font-size: 1rem;
   }
   .part8 .svg-box .firstSvg {
     width: 60%;
