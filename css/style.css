@@ -87,6 +87,90 @@ nav .hamburger:hover .bar {
 }
 /* part1 Melike End */
 /*----------------------------------------------------------------*/
+/* part2 kemal Start */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29332c;
+  z-index: -2;
+}
+.part2 {
+  width: 1140px;
+  min-height: 1289px;
+}
+.svg-content {
+  margin-top: 129px;
+  display: flex;
+  justify-content: flex-end;
+}
+.u-image {
+  width: 676px;
+  height: 676px;
+  background-image: url(https://images02.nicepage.com/c461c07a441a5d220e8feb1a/222fdefbba0a5402b65fa45d/-min.jpg);
+  background-position: 50% 50%;
+  border-radius: 50% !important;
+  object-fit: cover;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: re; */
+  /* z-index: -1; */
+}
+.u-container {
+  width: 844px;
+  min-height: 566px;
+  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 15%);
+  margin: -183px auto 60px 0;
+  border-radius: 30px !important;
+  justify-content: center;
+  display: flex;
+  z-index: 2;
+  position: relative;
+}
+.u-container-content {
+  z-index: 1;
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.u-container-content h2 {
+  font-size: 60px;
+  color: #29332c;
+  font-family: "Montserrat", sans-serif;
+}
+.u-container-content .small-text {
+  margin: 20px 0 0;
+  position: relative;
+  box-sizing: border-box;
+  font-family: "open sans", sans-serif;
+  color: #111;
+  font-size: 1rem;
+}
+.u-container-content .button-read-more {
+  color: #fff;
+  background-color: #bdb285;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 50px;
+  padding: 15px 41px 16px 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-top: 30px;
+  display: table;
+  align-self: flex-start;
+  text-transform: uppercase;
+}
+.u-container-content a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.u-white {
+  background-color: #fff;
+}
+/* part2 kemal End */
+
 /* /part 3 F4173-Yasin Start/ */
 .part3 {
   height: 420px;
