@@ -9,18 +9,15 @@ hamburger.addEventListener("click", () => {
   navbar.classList.toggle("active");
   bgFilter.classList.toggle("active");
 });
-
 close.addEventListener("click", () => {
   navbar.classList.remove("active");
   bgFilter.classList.remove("active");
 });
-
 const rmFilter = () => {
   navbar.classList.remove("active");
   bgFilter.classList.remove("active");
   codersBox.classList.remove("active");
 };
-
 document.addEventListener("keyup", (e) => {
   if (e.key == "Escape") {
     rmFilter();
@@ -29,7 +26,6 @@ document.addEventListener("keyup", (e) => {
 bgFilter.addEventListener("click", () => {
   rmFilter();
 });
-
 copyright.addEventListener("click", () => {
   bgFilter.classList.add("active");
   codersBox.classList.add("active");
