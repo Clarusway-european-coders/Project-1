@@ -717,9 +717,10 @@ nav .hamburger:hover .bar {
   max-width: 100%;
   background-image: url(../img/pexels-photo-4307641.jpeg);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   display: flex;
   justify-content: flex-end;
+  padding-left: 2rem;
 }
 .part10 .main-container .text-wrapper {
   max-width: 538px;
@@ -1004,6 +1005,13 @@ footer .copyright:hover {
   .u-container-content h2 {
     font-size: 4rem;
   }
+  .part6 .svg-box {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  .part6 .svg-box .svgImg {
+    width: 100%;
+  }
   .part8 .svg-box {
     width: 70vw;
     margin-bottom: 100px;
@@ -1049,6 +1057,10 @@ footer .copyright:hover {
   .part4 .svg-box {
     height: 33vh;
   }
+  .part4 .svg-box .svgImg {
+    width: 100%;
+    left: 0;
+  }
   .part6 .svg-box {
     height: 30vh;
   }
@@ -1087,6 +1099,7 @@ footer .copyright:hover {
   }
   .part4 .svg-box {
     height: 25vh;
+    margin-bottom: 5rem;
   }
   .part4 .benefits-section {
     width: 80%;
@@ -1096,7 +1109,11 @@ footer .copyright:hover {
     width: 90%;
   }
   .part6 .svg-box {
-    height: 20vh;
+    width: 70%;
+    margin-bottom: 10rem;
+  }
+  .part6 .svg-box .svgImg {
+    left: 0;
   }
   .part6 .svg-box .firstSvg {
     fill: #4f6054;
@@ -1135,6 +1152,13 @@ footer .copyright:hover {
   .u-container {
     width: 90%;
   }
+  .part4 .svg-box {
+    width: 80vw;
+  }
+  .part6 .svg-box {
+    margin-bottom: 2rem;
+  }
+
   .part8 .network-article .network-button {
     padding: 15px 30px;
   }
@@ -1143,5 +1167,8 @@ footer .copyright:hover {
   .u-image {
     width: 150px;
     height: 150px;
+  }
+  .part6 .svg-box .svgImg {
+    margin-bottom: 0;
   }
 }
