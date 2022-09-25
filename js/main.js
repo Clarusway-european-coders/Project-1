@@ -13,19 +13,18 @@ close.addEventListener("click", () => {
   navbar.classList.remove("active");
   bgFilter.classList.remove("active");
 });
-const rmFilter = () => {
+
+bgFilter.addEventListener("click", () => {
   navbar.classList.remove("active");
   bgFilter.classList.remove("active");
   codersBox.classList.remove("active");
-};
+});
 document.addEventListener("keyup", (e) => {
   if (e.key == "Escape") {
-    rmFilter();
+    bgFilter.click();
   }
 });
-bgFilter.addEventListener("click", () => {
-  rmFilter();
-});
+
 copyright.addEventListener("click", () => {
   bgFilter.classList.add("active");
   codersBox.classList.add("active");
