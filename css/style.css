@@ -531,6 +531,7 @@ nav .hamburger:hover .bar {
   flex-direction: column;
   gap: 4rem;
   text-align: center;
+
   /* margin-top: 4rem; */
 }
 .part7 .container .title {
@@ -561,6 +562,7 @@ nav .hamburger:hover .bar {
   margin-bottom: 1rem;
   border-radius: 30px;
   padding: 0.3rem;
+  font-size: 5rem;
 }
 .part7 .container .boxes .box .tick {
   margin-top: 30px;
@@ -571,7 +573,7 @@ nav .hamburger:hover .bar {
 }
 .part7 .container .boxes .box .text {
   width: 90%;
-  font-size: 1rem;
+  font-size: 2rem;
   display: flex;
   text-align: left;
   align-items: center;
