@@ -352,7 +352,7 @@ nav .hamburger:hover .bar {
 }
 .part4 .benefits-article .benefits-description {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   color: #111;
 }
@@ -504,8 +504,8 @@ nav .hamburger:hover .bar {
 }
 .part6 .network-article .network-description {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
   color: #111;
 }
 .part6 .network-article .network-button {
@@ -576,7 +576,7 @@ nav .hamburger:hover .bar {
 }
 .part7 .container .boxes .box .text {
   width: 90%;
-  font-size: 1rem;
+  font-size: 2rem;
   display: flex;
   text-align: left;
   align-items: center;
@@ -651,7 +651,7 @@ nav .hamburger:hover .bar {
 }
 .part8 .network-article .network-description {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   /* padding: 2rem 0; */
   color: #111;
@@ -933,7 +933,7 @@ footer .copyright {
 footer .copyright:hover {
   color: rgba(37, 155, 202, 60%);
 }
-footer .footerInfo img{
+footer .footerInfo img {
   max-width: 20rem;
 }
 
